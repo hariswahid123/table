@@ -1,14 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     background: #f4f4f4;
 }
 
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
 
 table {
     width: 100%;
@@ -28,7 +24,7 @@ th, td {
 
 th:first-child, 
 td:first-child {
-    text-align: center;
+    
     vertical-align: middle;
 }
 
@@ -68,6 +64,10 @@ td ul li {
 @media (max-width: 768px) {
     table, thead, tbody, th, td, tr {
         display: block;
+    }
+
+    body{
+        padding: 0;
     }
 
     thead {
